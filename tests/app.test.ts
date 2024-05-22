@@ -11,7 +11,7 @@ describe("email", () => {
         recipient: "test6@email.com",
         subject: "Email Verification",
         body: "Your verification is ${code}",
-        source: "user-registration",
+        source: "user-registration"
       })
       .expect(201);
   });
